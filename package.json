@@ -11,7 +11,7 @@
     "react-countup": "^6.1.1",
     "react-dom": "^17.0.2",
     "react-player": "^2.9.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.28.1",
     "reactstrap": "^9.0.1",
     "remixicon": "^2.5.0",
@@ -19,6 +19,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "dev": "node --openssl-legacy-provider ./node_modules/.bin/next dev",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
